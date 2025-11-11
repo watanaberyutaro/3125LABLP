@@ -239,7 +239,7 @@ function SystemsPageContent({ expandedFaq, setExpandedFaq }: { expandedFaq: numb
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-mono text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
             >
-              {'<'}SYSTEMS{'>'} <span className="text-[#00FF96]">// 導入可能なシステム</span>
+              {'<'}SYSTEMS{'>'} <span className="text-[#00FF96]">{'//'} 導入可能なシステム</span>
             </motion.h2>
 
             <motion.p
@@ -319,7 +319,7 @@ function SystemsPageContent({ expandedFaq, setExpandedFaq }: { expandedFaq: numb
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-mono text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
             >
-              {'<'}PLANS{'>'} <span className="text-[#00FF96]">// 料金プラン</span>
+              {'<'}PLANS{'>'} <span className="text-[#00FF96]">{'//'} 料金プラン</span>
             </motion.h2>
 
             <motion.p
@@ -403,7 +403,7 @@ function SystemsPageContent({ expandedFaq, setExpandedFaq }: { expandedFaq: numb
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-mono text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
             >
-              {'<'}FAQ{'>'} <span className="text-[#00FF96]">// よくある質問</span>
+              {'<'}FAQ{'>'} <span className="text-[#00FF96]">{'//'} よくある質問</span>
             </motion.h2>
 
             <motion.p

@@ -36,7 +36,7 @@ export default function CTASection() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               あなたの
               <br />
-              <span className="text-accent">"研究テーマ"</span>を
+              <span className="text-accent">&quot;研究テーマ&quot;</span>を
               <br />
               教えてください。
             </h2>

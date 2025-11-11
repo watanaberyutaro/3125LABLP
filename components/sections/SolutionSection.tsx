@@ -45,7 +45,7 @@ export default function SolutionSection() {
             </h2>
 
             <p className="font-mono text-base md:text-lg text-white/70 leading-relaxed">
-              {'// '}業務課題を<span className="text-[#00FF96]">"研究テーマ"</span>として扱い、小規模・短納期で<span className="text-[#78C4D4]">"実験的システム"</span>を構築。
+              {'// '}業務課題を<span className="text-[#00FF96]">&quot;研究テーマ&quot;</span>として扱い、小規模・短納期で<span className="text-[#78C4D4]">&quot;実験的システム&quot;</span>を構築。
               <br />
               {'// '}必要ならそのまま正式導入までサポートします。
             </p>

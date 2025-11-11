@@ -106,7 +106,7 @@ export default function ContactPage() {
                   <p className="font-mono text-sm text-white/80">
                     {'> '}平日 10:00-18:00
                     <br />
-                    <span className="text-xs text-white/50">{'  '}// 土日祝日を除く</span>
+                    <span className="text-xs text-white/50">{'  // 土日祝日を除く'}</span>
                   </p>
                 </div>
 

@@ -135,7 +135,6 @@ export default function ProblemSection() {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
                   className={`flex items-start space-x-4 ${bgColor} p-6 rounded-lg border-4 ${borderColor} hover:-translate-y-1 transition-all duration-300 relative overflow-hidden backdrop-blur-sm`}
                   animate={{
                     boxShadow: [

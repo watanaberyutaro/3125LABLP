@@ -178,7 +178,7 @@ export default function ResearchPage() {
             >
               {'<'}RESEARCH_PHILOSOPHY{'>'}
               <br />
-              <span className="text-[#00FF96]">// 研究理念</span>
+              <span className="text-[#00FF96]">{'//'} 研究理念</span>
             </motion.h2>
 
             <motion.p
@@ -253,7 +253,7 @@ export default function ResearchPage() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-mono text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
             >
-              {'<'}LABS{'>'} <span className="text-[#00FF96]">// 研究領域</span>
+              {'<'}LABS{'>'} <span className="text-[#00FF96]">{'//'} 研究領域</span>
             </motion.h2>
 
             <motion.p
@@ -331,7 +331,7 @@ export default function ResearchPage() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-mono text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
             >
-              {'<'}METHOD{'>'} <span className="text-[#00FF96]">// 研究手法</span>
+              {'<'}METHOD{'>'} <span className="text-[#00FF96]">{'//'} 研究手法</span>
             </motion.h2>
 
             <motion.p

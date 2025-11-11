@@ -276,7 +276,7 @@ export default function LabHome() {
           title={
             <>
               あなたの
-              <span className="text-lab-neon">"研究テーマ"</span>を
+              <span className="text-lab-neon">&quot;研究テーマ&quot;</span>を
               <br />
               教えてください。
             </>
