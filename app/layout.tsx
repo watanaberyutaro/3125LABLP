@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   title: '3125 LAB | 業務課題を、実験で仕組みに変える研究所',
   description: '3125 LABは、企業が抱えるニッチな業務課題を実験的に解決する開発スタジオです。',
   keywords: ['AI開発', '業務効率化', 'システム開発', 'ローコード', 'DX支援'],
+  verification: {
+    google: 'i8LAZUR3i5z8ulnyj2JRYUaRYndg8Yqr2QqKlSEuy9w',
+  },
   openGraph: {
     title: '3125 LAB | 業務課題を、実験で仕組みに変える研究所',
     description: '企業が抱えるニッチな業務課題を実験的に解決する開発スタジオ',
