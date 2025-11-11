@@ -8,7 +8,7 @@ import Container from './Container'
 interface SectionProps {
   id?: string
   kicker?: string
-  title?: string
+  title?: string | ReactNode
   lead?: string
   children: ReactNode
   tone?: 'default' | 'panel' | 'grid'
