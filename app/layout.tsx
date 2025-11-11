@@ -35,8 +35,12 @@ export const metadata: Metadata = {
     title: '3125 LAB | 業務課題を、実験で仕組みに変える研究所',
     description: '企業が抱えるニッチな業務課題を実験的に解決する開発スタジオ',
   },
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
