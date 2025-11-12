@@ -208,7 +208,7 @@ export default function Header() {
           animate={{ x: 0 }}
           exit={{ x: '100%' }}
           transition={{ type: 'tween', duration: 0.3 }}
-          className="lg:hidden absolute top-full left-0 w-full bg-black/98 border-b border-[#333] backdrop-blur-sm"
+          className="lg:hidden absolute top-full left-0 w-full bg-black border-b border-[#333] shadow-[0_4px_20px_rgba(0,0,0,0.8)]"
         >
           <div className="container mx-auto px-4 py-6 space-y-4">
             {/* Mobile Navigation */}
