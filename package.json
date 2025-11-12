@@ -1,6 +1,7 @@
 {
-  "name": "lablp",
-  "version": "0.1.0",
+  "name": "3125-lab-lp",
+  "version": "1.0.0",
+  "description": "ニッチなシステム開発に特化した3125 LABの公式LP。低価格・高品質な業務自動化・AI連携システムを提供。",
   "private": true,
   "scripts": {
     "dev": "next dev",
