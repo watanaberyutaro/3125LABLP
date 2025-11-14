@@ -15,10 +15,12 @@ export async function POST(request: Request) {
       )
     }
 
-    // 開発環境チェック
-    const isDevelopment = process.env.NODE_ENV === 'development'
+    // 開発環境チェック or SMTP設定が未完了の場合
+    const isDevelopment = process.env.NODE_ENV === 'development' ||
+                         !process.env.SMTP_USER ||
+                         !process.env.SMTP_PASS
 
-    // 開発環境ではメール送信をスキップ
+    // 開発環境またはSMTP未設定の場合はメール送信をスキップ
     if (isDevelopment) {
       console.log('📧 [開発環境] お問い合わせフォーム送信内容:')
       console.log('━━━━━━━━━━━━━━━━━━━━')
